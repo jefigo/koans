@@ -12,7 +12,7 @@ class AboutModules < Neo::Koan
   end
 
   def test_cant_instantiate_modules
-    assert_raise(___) do
+    assert_raise(__) do
       Nameable.new
     end
   end
