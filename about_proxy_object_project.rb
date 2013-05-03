@@ -11,6 +11,8 @@ require File.expand_path(File.dirname(__FILE__) + '/neo')
 # The proxy class is started for you.  You will need to add a method
 # missing handler and any other supporting methods.  The specification
 # of the Proxy class is given in the AboutProxyObjectProject koan.
+#
+#just testing
 
 class Proxy
   def initialize(target_object)
